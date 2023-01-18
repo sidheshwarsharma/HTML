@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Document</title>
+          <style>
+                    table {
+                              background-color: #F4D9E7;
+                              background-image: url(/photos/Bear.png);
+                              background-repeat: no-repeat;
+                              background-position: 200px 10px;
+                              background-size: 80px;
+                              border: 5px solid black;
+                              border-radius: 10px;
+                    }
+
+                    hr {
+                              border-style: dotted;
+                              
+                    }
+          </style>
+</head>
+
+<body>
+          <div class="container">
+                    <table border="0" align="center" cellspacing="0" cellpadding="8">
+                              <form action="">
+                                        <tr>
+                                                  <td colspan="6" align="center">
+                                                            <h1>Beauty Salon Survey</h1>
+                                                  </td>
+                                        </tr>
+                                        <tr>
+                                                  <td colspan="6" align="center">
+                                                            <hr class="line">
+                                                  </td>
+                                        </tr>
+
+                                        <tr>
+                                                  <td colspan="6">Where did you first hear about our beauty salon :</td>
+                                        </tr>
+                                        <tr>
+                                                  <td colspan="3">
+                                                            <input type="radio" name="Know" id="Int">
+                                                            <label for="Int">Internet</label>
+                                                  </td>
+                                                  <td colspan="3">
+                                                            <input type="radio" name="Know" id="Rec">
+                                                            <label for="Rec">Recommendation</label>
+                                                  </td>
+                                        </tr>
+                                        <tr>
+                                                  <td colspan="3">
+                                                            <input type="radio" name="Know" id="Adv">
+                                                            <label for="Adv">Advertising</label>
+                                                  </td>
+                                                  <td colspan="3">
+                                                            <input type="radio" name="Know" id="Other">
+                                                            <label for="Other">Other...</label>
+                                                  </td>
+                                        </tr>
+                                        <tr>
+                                                  <td colspan="6">How often do you visit the salon ?</td>
+                                        </tr>
+                                        <td colspan="3">
+                                                  <input type="radio" name="Visit" id="7">
+                                                  <label for="7">Several time a week </label>
+                                        </td>
+                                        <td colspan="3">
+                                                  <input type="radio" name="Visit" id="12">
+                                                  <label for="12">Several time a month </label>
+                                        </td>
+                                        </tr>
+                                        <tr>
+                                                  <td colspan="3">
+                                                            <input type="radio" name="Visit" id="1">
+                                                            <label for="1">Once a week</label>
+                                                  </td>
+                                                  <td colspan="3">
+                                                            <input type="radio" name="Visit" id="365">
+                                                            <label for="365">Several time a year</label>
+                                                  </td>
+                                        </tr>
+                                        <tr>
+                                                  <td colspan="6"> Which treatments or services do you prefer? </td>
+                                        </tr>
+                                        <tr>
+                                                  <td colspan="6">
+                                                            <select name="Treatment" id="trt">
+                                                                      <option value="Manicure">Manicure</option>
+                                                                      <option value="Pedicure">Pedicure</option>
+                                                                      <option value="Skin care">Skin care</option>
+                                                                      <option value="Eyebrow teasing">Eyebrow teasing
+                                                                      </option>
+                                                                      <option value="Eyelash care">Eyelash care</option>
+                                                                      <option value="Eyelash extension">Eyelash
+                                                                                extension</option>
+                                                                      <option value="Depilation">Depilation</option>
+                                                            </select>
+                                                  </td>
+                                        </tr>
+                                        <tr>
+                                                  <td colspan="6">Please rate our beauty staff against the following
+                                                            statements :</td>
+                                        </tr>
+                                        <tr>
+                                                  <td></td>
+                                                  <td>Strong Agree</td>
+                                                  <td>Agree</td>
+                                                  <td>Neutral</td>
+                                                  <td>Disagree</td>
+                                                  <td>Strongly Disagree</td>
+                                        </tr>
+                                        <tr align="center">
+                                                  <td rowspan="2">
+                                                            <p>The Beautician was well trained and knew what they were
+                                                                      doing</p>
+                                                  </td>
+                                                  <td rowspan="2"><input type="radio" name="Trained"></td>
+                                                  <td rowspan="2"><input type="radio" name="Trained"></td>
+                                                  <td rowspan="2"><input type="radio" name="Trained"></td>
+                                                  <td rowspan="2"><input type="radio" name="Trained"></td>
+                                                  <td rowspan="2"><input type="radio" name="Trained"></td>
+                                        </tr>
+
+                                        <tr>
+                                                  <!-- this is helping ing rowspan -->
+                                        </tr>
+                                        <tr align="center">
+                                                  <td rowspan="2">
+                                                            <p>The Beautician had warm hands and a good operational
+                                                                      manner</p>
+                                                  </td>
+                                                  <td rowspan="2"><input type="radio" name="Manner"></td>
+                                                  <td rowspan="2"><input type="radio" name="Manner"></td>
+                                                  <td rowspan="2"><input type="radio" name="Manner"></td>
+                                                  <td rowspan="2"><input type="radio" name="Manner"></td>
+                                                  <td rowspan="2"><input type="radio" name="Manner"></td>
+                                        </tr>
+
+                                        <tr>
+                                                  <!-- this is helping ing rowspan -->
+                                        </tr>
+                                        <tr align="center">
+                                                  <td rowspan="2">
+                                                            <p>The Beautician had warm hands and a good operational
+                                                                      manner</p>
+                                                  </td>
+                                                  <td rowspan="2"><input type="radio" name="Aware"></td>
+                                                  <td rowspan="2"><input type="radio" name="Aware"></td>
+                                                  <td rowspan="2"><input type="radio" name="Aware"></td>
+                                                  <td rowspan="2"><input type="radio" name="Aware"></td>
+                                                  <td rowspan="2"><input type="radio" name="Aware"></td>
+                                        </tr>
+
+                                        <tr>
+                                                  <!-- this is helping ing rowspan -->
+                                        </tr>
+                                        <tr>
+                                                  <td colspan="6">How would you rate our salon on its prices?</td>
+                                        </tr>
+                                        <tr>
+                                                  <td colspan="3">
+                                                            <input type="radio" name="Rating" id="Aff">
+                                                            <label for="Aff">Affordable</label>
+                                                  </td>
+                                                  <td colspan="3">
+                                                            <input type="radio" name="Rating" id="Unacc">
+                                                            <label for="Unacc">Unacceptable</label>
+                                                  </td>
+                                        </tr>
+                                        <tr>
+                                                  <td colspan="3">
+                                                            <input type="radio" name="Rating" id="Acc">
+                                                            <label for="Acc">Acceptable</label>
+                                                  </td>
+                                                  <td colspan="3">
+                                                            <input type="radio" name="Rating" id="Exp">
+                                                            <label for="Exp">Expensive</label>
+                                                  </td>
+                                        </tr>
+                                        <tr>
+                                                  <td colspan="6">
+                                                            <h3>How was you visit to the salon overall?</h3>
+                                                  </td>
+                                        </tr>
+                                        <tr>
+                                                  <td colspan="3">
+                                                            <input type="checkbox" name="High quality"
+                                                                      id="High quality">
+                                                            <label for="High quality">High quality</label>
+                                                  </td>
+                                                  <td colspan="3">
+                                                            <input type="checkbox" name="Pleasant" id="Pleasant">
+                                                            <label for="Pleasant">Pleasant</label>
+                                                  </td>
+                                        </tr>
+                                        <tr>
+                                                  <td colspan="3">
+                                                            <input type="checkbox" name="Appropriate equipment" id="Ap">
+                                                            <label for="Ap">Appropriate equipment</label>
+                                                  </td>
+                                                  <td colspan="3">
+                                                            <input type="checkbox" name="A release" id="Ar">
+                                                            <label for="Ar">A release</label>
+                                                  </td>
+                                        </tr>
+                                        <tr>
+                                                  <td colspan="3">
+                                                            <input type="checkbox" name="Professional" id="Pro">
+                                                            <label for="Pro">Professional</label>
+                                                  </td>
+                                                  <td colspan="3">
+                                                            <input type="checkbox" name="Relaxing" id="Relx">
+                                                            <label for="Relx">Relaxing</label>
+                                                  </td>
+                                        </tr>
+                                        <tr>
+                                                  <td colspan="6">
+                                                            <h3>Please confirm your gender:</h3>
+                                                  </td>
+                                        </tr>
+                                        <tr>
+                                                  <td colspan="3">
+                                                            <input type="radio" name="Gender" id="Male">
+                                                            <label for="Male">Male</label>
+                                                  </td>
+                                                  <td colspan="3">
+                                                            <input type="radio" name="Gender" id="Female">
+                                                            <label for="Female">Female</label>
+                                                  </td>
+                                        </tr>
+                                        <tr>
+                                                  <td colspan="6">
+                                                            <h3>Would you recommend our salon to a friend?</h3>
+                                                  </td>
+                                        </tr>
+                                        <tr>
+                                                  <td colspan="6">If not, please state your reason(s)</td>
+                                        </tr>
+                                        <tr>
+                                                  <td colspan="6">
+                                                            <textarea name="Complain" id="Comp" cols="105"
+                                                                      rows="5"></textarea>
+                                                  </td>
+                                        </tr>
+                                        <tr>
+                                                  <td colspan="6" align="center"> <input type="submit" value="Send">
+                                                  </td>
+                                        </tr>
+                              </form>
+                    </table>
+                    <br><br>
+                    <footer>
+                              <a href="/index.html">Go To Index</a>
+                    </footer>
+          </div>
+</body>
+
+</html>

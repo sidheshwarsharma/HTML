@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Document</title>
+          <style>
+                    table{
+                              border:1px solid black;
+                    }
+
+          </style>
+</head>
+
+<body>
+          <table border="0" cellspacing="0" align="center" cellpadding="5">
+                    <tr>
+                              <td colspan="8" align="center">Rail Ticket Booking From</td>
+                              
+                    </tr>
+                    <tr>
+                              <td colspan="8">
+                                        <hr color="black" size="3">
+                              </td>
+                    </tr>
+                    <tr>
+                              <td colspan="4"><label for="Quota">Reservation Quota</label></td>
+                              <td colspan="4"><label for="TrName">Train Number or Name</label></td>
+                    </tr>
+                    <tr>
+                              <td colspan="4">
+                                        <select name="ReservationQuota" id="Quota" mu>
+                                                  <option value="">Please Select</option>
+                                                  <option value="1">First Class</option>
+                                                  <option value="2">Second Class</option>
+                                                  <option value="3">Third Class</option>
+                                                  <option value="4">Fourth Class</option>
+
+                                        </select>
+                              </td>
+                              <td colspan="4">
+                                        <input type="text" name="TrainName" id="TrName" size="30">
+                              </td>
+                    </tr>
+                    <tr>
+                              <td colspan="4">
+                                        <label for="Start">Journey From</label>
+                              </td>
+                              <td colspan="4">
+                                        <label for="End">Journey To</label>
+                              </td>
+                    </tr>
+                    <tr>
+                              <td colspan="4">
+                                        <input type="text" name="JrStart" id="Start" size="30" placeholder="Station Code or full station name">
+                              </td>
+                              <td colspan="4">
+                                        <input type="text" name="JrEnd" id="End" size="30" placeholder="Destination Station Code or full station name"> 
+                              </td>
+                    </tr>
+                    <tr>
+                              <td colspan="4">
+                                        <label for="Date">Departure/Journey Date</label>
+                              </td>
+                              <td colspan="4"><input type="date" name="Dept_Jr_date" id="Date"></td>
+                              
+                    </tr>
+                    <tr>
+                              <td colspan="8">
+                                        <hr color="black" size="3">
+                              </td>
+                    </tr>
+                    <tr>
+                              <td colspan="4"><label for="Name">Passenger Details 1</label></td>
+                              <td colspan="4"><label for="Age">Age</label></td>
+                    </tr>
+                    <tr>
+                              <td colspan="4">
+                                        <input type="text" name="PassName" id="Name" size="30" placeholder="Full Name">
+                              </td>
+                              <td colspan="4">
+                                        <input type="number" name="PassAge" id="Age" size="30" placeholder="ex : 23">
+                              </td>
+                    </tr>
+                    <tr>
+                              <td colspan="4">
+                                        Sex
+                              </td>
+                              <td colspan="4">
+                                        <label for="Berth">Berth Choice</label>
+                              </td>
+                    </tr>
+                    <tr>
+                              <td colspan="4">
+                                        <input type="radio" name="Gender" id="Male">
+                                        <label for="Male">Male</label>
+                                        <input type="radio" name="Gender" id="Female">
+                                        <label for="Female">Female</label>
+                                        <input type="radio" name="Gender" id="Others">
+                                        <label for="Others">Others</label>
+                              </td>
+                              <td>
+                                        <select name="" id="Berth">
+                                                  <option value="">Please Select </option>
+                                                  <option value="Low">Lower</option>
+                                                  <option value="Mid">Middle</option>
+                                                  <option value="Up">Upper</option>
+                                                  <option value="Low">side Lower</option>
+                                                  <option value="Low">Side Upper</option>
+                                        </select>
+                              </td>
+                    </tr>
+                    <tr>
+                              <td colspan="4"> <label for="Contact">Phone Number</label></td>
+                              <td colspan="4"> <label for="Email">Email</label></td>
+                    </tr>
+                    <tr>
+                              <td colspan="4"> <input type="number" name="PhnNo" id="Contact" placeholder="Enter Valid  Number" </td>
+                              <td colspan="4"> <input type="email" name="Email" id="Email" size="30" placeholder="Example@gmail.com"></td>
+                    </tr>
+                    <tr>
+                              <td colspan="8"> 
+                                        <hr size="3" color="black">
+                              </td>
+                    </tr>
+                    <tr>
+                              <td colspan="4"><label for="Name">Passenger Details 2</label></td>
+                              <td colspan="4"><label for="Age">Age</label></td>
+                    </tr>
+                    <tr>
+                              <td colspan="4">
+                                        <input type="text" name="PassName" id="Name" size="30" placeholder="Full Name">
+                              </td>
+                              <td colspan="4">
+                                        <input type="number" name="PassAge" id="Age" size="30" placeholder="ex : 23">
+                              </td>
+                    </tr>
+                    <tr>
+                              <td colspan="4">
+                                        Sex
+                              </td>
+                              <td colspan="4">
+                                        <label for="Berth">Berth Choice</label>
+                              </td>
+                    </tr>
+                    <tr>
+                              <td colspan="4">
+                                        <input type="radio" name="Gender" id="Male">
+                                        <label for="Male">Male</label>
+                                        <input type="radio" name="Gender" id="Female">
+                                        <label for="Female">Female</label>
+                                        <input type="radio" name="Gender" id="Others">
+                                        <label for="Others">Others</label>
+                              </td>
+                              <td>
+                                        <select name="" id="Berth">
+                                                  <option value="">Please Select </option>
+                                                  <option value="Low">Lower</option>
+                                                  <option value="Mid">Middle</option>
+                                                  <option value="Up">Upper</option>
+                                                  <option value="Low">side Lower</option>
+                                                  <option value="Low">Side Upper</option>
+                                        </select>
+                              </td>
+                    </tr>
+                    <tr>
+                              <td colspan="4"> <label for="Contact">Phone Number</label></td>
+                              <td colspan="4"> <label for="Email">Email</label></td>
+                    </tr>
+                    <tr>
+                              <td colspan="4"> <input type="number" name="PhnNo" id="Contact" placeholder="Enter Valid  Number" </td>
+                              <td colspan="4"> <input type="email" name="Email" id="Email" size="30" placeholder="Example@gmail.com"></td>
+                    </tr>
+                    <tr>
+                              <td colspan="8"> 
+                                        <hr size="3" color="black">
+                              </td>
+                    </tr>
+                    <tr>
+                              <td colspan="4"><label for="Name">Passenger Details 3</label></td>
+                              <td colspan="4"><label for="Age">Age</label></td>
+                    </tr>
+                    <tr>
+                              <td colspan="4">
+                                        <input type="text" name="PassName" id="Name" size="30" placeholder="Full Name">
+                              </td>
+                              <td colspan="4">
+                                        <input type="number" name="PassAge" id="Age" size="30" placeholder="ex : 23">
+                              </td>
+                    </tr>
+                    <tr>
+                              <td colspan="4">
+                                        Sex
+                              </td>
+                              <td colspan="4">
+                                        <label for="Berth">Berth Choice</label>
+                              </td>
+                    </tr>
+                    <tr>
+                              <td colspan="4">
+                                        <input type="radio" name="Gender" id="Male">
+                                        <label for="Male">Male</label>
+                                        <input type="radio" name="Gender" id="Female">
+                                        <label for="Female">Female</label>
+                                        <input type="radio" name="Gender" id="Others">
+                                        <label for="Others">Others</label>
+                              </td>
+                              <td>
+                                        <select name="" id="Berth">
+                                                  <option value="">Please Select </option>
+                                                  <option value="Low">Lower</option>
+                                                  <option value="Mid">Middle</option>
+                                                  <option value="Up">Upper</option>
+                                                  <option value="Low">side Lower</option>
+                                                  <option value="Low">Side Upper</option>
+                                        </select>
+                              </td>
+                    </tr>
+                    <tr>
+                              <td colspan="4"> <label for="Contact">Phone Number</label></td>
+                              <td colspan="4"> <label for="Email">Email</label></td>
+                    </tr>
+                    <tr>
+                              <td colspan="4"> <input type="number" name="PhnNo" id="Contact" placeholder="Enter Valid  Number" </td>
+                              <td colspan="4"> <input type="email" name="Email" id="Email" size="30" placeholder="Example@gmail.com"></td>
+                    </tr>
+                    
+                    <tr>
+                              <td colspan="8">
+                                        <input type="checkbox" name="TC" id="TC">
+                                        <label for="TC">
+                                                  I agree <a href="#">Terms &amp; Conditions.</a>
+                                        </label>
+                              </td>
+                    </tr>
+                    <tr>
+                              <td colspan="8"> 
+                                        <hr size="3" color="black">
+                              </td>
+                    </tr>
+                    <tr >
+                              <td colspan="8" align="center">
+                                        <input type="submit" value="submit" >
+                              </td>
+                    </tr>
+          </table>
+          <br><br>
+          <footer align="center">
+                    <a href="/index.html">Go To Index </a>
+          </footer>
+</body>
+
+</html>

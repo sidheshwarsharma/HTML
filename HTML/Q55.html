@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University form</title>
+    <style>
+        /* body{
+            background-color: rgba(48, 48, 222, 0.2);
+        } */
+        table{
+            width: 10%;
+            height: 500px;
+            border: 1px solid;
+            border-spacing:5px;
+            /* background-color: whitesmoke; */
+            border-radius: 15px;
+
+        }
+        tr{
+            height: 30px;
+        }
+        h2,p{
+            text-align: center;
+        }
+    </style> 
+    
+</head>
+
+<body>
+    <h2>College Registration Form</h2>
+    <p>
+        Thank you for applying to our college. Please fill in the form below to <br> complete the registration process
+        for admission.</p>
+    <form action="mailto:info@sidheshwar1382003sharma@gamil.com" autocomplete="on">
+        <table cellspacing="0" border="0" align="center">
+            <tr>
+                <td colspan="4">Name of student</td>
+            </tr>
+            <tr>
+                <td colspan="2"> <input type="text" placeholder="First Name" size="28" name="frist_name"></td>
+                <td colspan="2"> <input type="text" placeholder="Last Name" name="last_name"></td>
+            </tr>
+            <tr>
+                <td colspan="4" rowspan="2">Gender <br> <br>
+                    <label for="Male">
+                    <input type="radio" name="Gender" id="Male" value="male"> Male</label> <br><br>
+                    <label for="Female">
+                    <input type="radio" name="Gender"id="Female" value="female"> Female
+                </label>
+                </td>
+            </tr>
+            <tr>
+                <!-- this is part of rowspan  -->
+            </tr>
+            <tr>
+                <td colspan="4">Date &nbsp; of &nbsp; Birth </td>
+            </tr>
+            <tr>
+                <td colspan="4"><input type="date" name="dob" value="date"></td>
+            </tr>
+            <tr>
+                <td colspan="4">Email</td>
+            </tr>
+            <tr>
+                <td colspan="4"> <input type="email" size="45" name="mail_id"> </td>
+            </tr>
+            <tr>
+                <td colspan="4">Father's name </td>
+            </tr>
+            <tr>
+                <td colspan="2"> <input type="text" placeholder="First Name" size="28" name="father_first_name"></td>
+
+                <td colspan="2"> <input type="text" placeholder="Last Name"></td>
+
+            </tr>
+            <tr>
+                <td colspan="4">Mother's name </td>
+            </tr>
+            <tr>
+                <td colspan="2"> <input type="text" placeholder="First Name"></td>
+
+                <td colspan="2"> <input type="text" placeholder="Last Name"></td>
+
+            </tr>
+            
+                <td colspan="4">Nationality</td>
+            </tr>
+            <tr>
+                <td colspan="4"> <input type="text" size="45"></td>
+            </tr>
+            <tr>
+                <td colspan="4">Home Address</td>
+            </tr>
+            <tr>
+                <td colspan="4"><input type="text" size="45" placeholder="Street Address"></td>
+            </tr>
+            <tr>
+                <td colspan="1"> <input type="text" nam="city" placeholder="City" size="20"> </td>
+                <td colspan="1"> <input type="text" nam="city" placeholder="State"> </td>
+                <td colspan="2">
+                    <select name="country">
+                        <option value="country" selected>country</option>
+                        <option value="India">India</option>
+                        <option value="Usa">Usa</option>
+                        <option value="China"> China</option>
+                        <option value="Dubai">Dubai</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4">Telephone-Home</td>
+            </tr>
+            <tr>
+                <td colspan="4"> <input type="tel" size="45" placeholder="### ### ####" maxlength="10"></td>
+            </tr>
+            <tr>
+                <td colspan="4">Telephone-Mobile </td>
+            </tr>
+            <tr>
+                <td colspan="4"> <input type="tel" size="45" placeholder="### ### ####" maxlength="10"></td>
+            </tr>
+            <tr>
+                <tr>
+                    <td colspan="4">Electronic signature (parent/Guardian)</td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <input type="file" name="" id="" accept=".pdf">
+                    </td>
+                </tr>
+                <td colspan="4">In a few sentences, Write Down why do you want to become a student of your collage.
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <textarea name="" id="" cols="50" rows="10"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"> <input type="submit"></td>
+                <td colspan="2"> <input type="reset"></td>
+            </tr>
+        </table>
+    </form>
+    <footer align="center"> <a href="/index.html">GoToIndex</a></footer>
+</body>
+
+</html>
